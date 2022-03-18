@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/contacto.css">
 </head>
 <body>
     <header>
@@ -23,20 +24,22 @@
     </header>
 
     <main>
-        <form action="#">
-            <div>
-                <label for="nombre">Nombre</label>
-                <input id="nombre" name="nombre" type="text" placeholder="Romina">
-            </div>
-            <div>
-                <label for="email">email</label>
-                <input id="email" name="email" type="text" placeholder="ejemplo@mail.com">
-            </div>
-            <div>
-                <label for="message">Tu mensaje!</label>
-                <textarea name="message" id="message" cols="30" rows="10"></textarea>
-            </div>
-        </form>
+        <div class="contenedor-formulario">
+            <form action="#">
+                <div>
+                    <label for="nombre">Tu nombre</label>
+                    <input id="nombre" name="nombre" type="text" placeholder="Romina">
+                </div>
+                <div>
+                    <label for="email">Tu email</label>
+                    <input id="email" name="email" type="text" placeholder="ejemplo@mail.com">
+                </div>
+                <div>
+                    <label for="message">¡Tu mensaje!</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+            </form>
+        </div>
     </main>
     <footer>
         <div class="contenedor-footer">

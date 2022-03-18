@@ -1,0 +1,52 @@
+.contenedor-formulario{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-formulario form{
+    width: 80%;
+    height: 100%;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(194, 255, 242, 0.5);
+}
+
+.contenedor-formulario label{
+    font-size: 2.5rem;
+    text-shadow: 0 0 2px white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contenedor-formulario div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.contenedor-formulario input{
+    width: 40%;
+    height: 5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contenedor-formulario textarea{
+    width: 100%;
+    height: 15rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+}
