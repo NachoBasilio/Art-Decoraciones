@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-size: 62.5%;
 }
+
 body{
     background-image: url("https://i.ibb.co/3SSwhs9/brown-texture.jpg");
     background-size: cover;
@@ -12,10 +13,9 @@ body{
 }
 
 header {
-    padding-top: 60px;
     position: fixed;
-    top: -200px; 
-    padding-top: 200px;
+    top: -250px; 
+    padding-top: 250px;
     left: 0;
     right: 0;
     bottom: 0;
@@ -32,7 +32,7 @@ header {
 
 .Contenedor-logo{
     width: 40%;
-    height: auto;
+    height: 30px;
     margin: 25px;
 }
 .Logo{
@@ -40,19 +40,32 @@ header {
     margin:15px;
     box-shadow: 0px 0px 10px #000;
 }
-nav{
-    font-size: 15rem;
-    margin-left: 100px;
+nav {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    margin: 35px 60px 0 0;
 }
-nav ul{
-    list-style: none;
-    margin: 0 auto;
-    padding: 0;
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 li{
-    display:inline-block;
-    margin: 0px 5px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 20px;
 }
+li a {
+    font-size: 3rem;
+}
+
+
+
+
+
 a{
     color: black;
     font-size: 3rem;
@@ -98,5 +111,183 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+/* Media querie hasta 480px */
+
+@media screen and (max-width: 480px){
+    header {
+        position: fixed;
+        top: -350px; 
+        padding-top: 350px;
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+        height: 600px;
+        background-image: url("https://i.ibb.co/ckrVZrb/pngwing-com-1.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        justify-content: center;
+    }
+    nav{
+        display: none;
+    }
+    .Contenedor-logo{
+        width: auto;
+        margin: 0;
+        height: 30px;
+    }
+    .Logo{
+        width: 300px;
+        margin: 15px 0 0 0;
+    }
+ 
+}
+
+/* Media querie de 480px hasta 768px */
+
+@media screen and (min-width: 480px) and (max-width: 768px){
+    header {
+        position: fixed;
+        top: -350px; 
+        padding-top: 350px;
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+        height: 600px;
+        background-image: url("https://i.ibb.co/ckrVZrb/pngwing-com-1.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        justify-content: center;
+    }
+    nav{
+        display: none;
+    }
+    .Contenedor-logo{
+        width: auto;
+        margin: 0;
+    }
+    .Logo{
+        width: 300px;
+        margin: 15px 0 0 0;
+    }
+    /*No me parece necesario tocar nada*/
+}
+
+/* Media querie de 768px a 808px */
+
+@media screen and (min-width: 768px) and (max-width: 808px){
+    header {
+        top: -300px;
+        padding-top: 300px;
+    }
+    /*No me parece necesario tocar nada*/
+    .Contenedor-logo{
+        width: auto;
+        margin: 25px 0 0 25px;
+    }
+    .Logo{
+        width: 200px;
+        margin: 15px 0 0 0;
+    }
+
+
+
+    nav {
+        display: flex;
+        width: 100%;
+        height: 100px;
+        justify-content: center;
+        margin: 25px 0 0 0;
+    }
+    ul{
+        display: flex;
+        justify-content: center;
+    }
+    li{
+        display: inline-block;
+        text-align: center;
+    }
+    li a {
+        font-size: 2rem;
+    }
+}
+
+/* Media querie de 808px a 952px */
+
+@media screen and (min-width: 808px) and (max-width: 952px){
+    header {
+        top: -300px;
+        padding-top: 300px;
+    }
+    /*No me parece necesario tocar nada*/
+    .Contenedor-logo{
+        width: auto;
+        margin: 25px 0 0 25px;
+    }
+    .Logo{
+        width: 200px;
+        margin: 15px 0 0 0;
+    }
+
+
+    nav {
+        display: flex;
+        width: 100%;
+        height: 100px;
+        justify-content: center;
+        margin: 25px 0 0 0;
+    }
+    ul{
+        display: flex;
+        justify-content: center;
+    }
+    li{
+        display: inline-block;
+        text-align: center;
+    }
+    li a {
+        font-size: 2.3rem;
+    }
+}
+
+/* media queries de 952px a 1279px */
+
+@media screen and (min-width: 952px) and (max-width: 1279px){
+    header {
+        top: -300px;
+        padding-top: 300px;
+    }
+    /*No me parece necesario tocar nada*/
+    .Contenedor-logo{
+        width: auto;
+        margin: 25px 0 0 25px;
+    }
+    .Logo{
+        width: 300px;
+        margin: 15px 0 0 0;
+    }
+
+    nav {
+        display: flex;
+        width: 100%;
+        height: 100px;
+        justify-content: center;
+        margin: 25px 0 0 0;
+    }
+    ul{
+        display: flex;
+        justify-content: center;
+    }
+    li{
+        display: inline-block;
+        text-align: center;
+    }
+    li a {
+        font-size: 2.3rem;
+    }
 }
 
