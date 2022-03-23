@@ -1,0 +1,58 @@
+/* Voy a hacer los estilos de forma movile first */
+
+main{
+    width: 100%;
+    padding: 0px;
+    margin: 170px auto 0 auto;
+}
+
+.polaroid {
+    background: #fff;
+    padding: 1rem;
+    box-shadow: 0 0.2rem 1.2rem rgba(0,0,0,0.2);
+    margin: 15px;
+}
+.polaroid img{
+    width: 100%;
+    height: auto;
+}
+.texto {
+    font-size: 1.8rem;
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+    margin-top: 10px;
+}
+.item {
+    width: 100%;
+    display: inline;
+}
+
+/* Media query si es mas de 480px*/
+@media screen and (min-width: 480px) {
+    main{
+        width: 80%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .item{
+        width: 80%;
+    }
+}
+
+/* Media query si es mas de 770px*/
+@media screen and (min-width: 770px) {
+    main{
+        width: 80%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 230px auto 0 auto;
+    }
+    .item{
+        width: 40%;
+    }
+
+}

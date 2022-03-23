@@ -144,6 +144,9 @@ footer{
         width: 300px;
         margin: 15px 0 0 0;
     }
+    .contenedor-footer p{
+        font-size: 1.5rem;
+    }
  
 }
 
