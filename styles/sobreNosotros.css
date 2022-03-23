@@ -1,0 +1,43 @@
+main{
+    width: 98%;
+    padding: 0px;
+    margin: 170px auto;
+    display: grid;;
+    grid-template-rows: auto auto;
+    padding: 10px;
+    background-color: #eed5b6;
+    font-family: 'Special Elite', cursive;
+}
+
+
+.sobreNosotros-Titulo{
+    font-size: 3rem
+}
+
+main p {
+    font-size: 1.8rem;
+    text-align: justify;
+    padding: 10px;
+}
+
+.firma{
+    text-align: right;
+    font-size: 1.8rem;
+    margin-top: 25px;
+}
+
+@media screen and (min-width: 770px) {
+    main {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 840px) {
+    main {
+        width: 60%;
+        margin-top: 230px;
+    }
+    main p{
+        font-size: 2.5rem;
+    }
+}
