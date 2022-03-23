@@ -1,5 +1,5 @@
 .carousel{
-    padding-top: 60px;
+    padding-top: 200px;
     background-color: rgb(154, 200, 189);
     width: 100%;
     height: auto;
@@ -24,3 +24,23 @@
     box-shadow: 5px 0px 55px #000;
 }
 /* Luego, cuando entienda como hacer un carousel, voy a seguir con estos estilos. */
+
+
+@media screen and (max-width: 768px){
+    .carousel{
+        padding-top: 150px;
+    }
+    .articulo-principal{
+        width: 90%;
+        height: 100%;
+    }
+    .articulo-principal .articulo-destacado{
+        width: 100%;
+        height: 100%;
+    }
+    .articulo-destacado img {
+        width: 100%;
+        height: 100%;
+        box-shadow: 5px 0px 55px #000;
+    }
+}
