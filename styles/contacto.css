@@ -50,3 +50,38 @@
     font-size: 1.5rem;
     font-family: 'Roboto', sans-serif;
 }
+
+@media screen and (max-width: 480px){
+    .contenedor-formulario form{
+        width: 100%;
+    }
+    .contenedor-formulario div{
+        width: 100%;
+    }
+    .contenedor-formulario input{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px){
+    .contenedor-formulario form{
+        width: 80%;
+    }
+    .contenedor-formulario div{
+        width: 100%;
+    }
+    .contenedor-formulario input{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 808px){
+    .contenedor-formulario form{
+        width: 60%;
+    }
+    .contenedor-formulario div{
+        width: 100%;
+    }
+    .contenedor-formulario input{
+        width: 100%;
+    }
+}
