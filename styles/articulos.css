@@ -44,7 +44,7 @@ main{
 /* Media query si es mas de 770px*/
 @media screen and (min-width: 770px) {
     main{
-        width: 80%;
+        width: 75%;
         display: flex;
         align-items: center;
         flex-wrap: wrap;
