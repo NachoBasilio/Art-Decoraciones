@@ -1,20 +1,44 @@
+h1 {
+    font-size: 5.2rem;
+    font-family: 'Playlist', sans-serif;
+    font-weight: normal;
+    text-shadow: 2px 2px 2px white;
+}
+.tituloDeLaPagina{
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+h2{
+    font-family: 'Special Elite', cursive;
+    font-size: 2rem;
+    margin-bottom: -18px;
+    text-shadow: 2px 2px 2px white;
+}
+
 .carousel{
-    padding-top: 200px;
+    padding-top: 150px;
     background-color: rgb(154, 200, 189);
     width: 100%;
     height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 4fr;
+    grid-auto-rows: auto;
+    align-items: center;
+    justify-items: center;
     box-shadow: 5px 0px 15px #000;
 }
 .articulo-principal{
-    width: 80%;
-    height: 75%;
-    margin: 0 auto;
+    width: 90%;
+    height: 100%;
     padding-top: 10px;
 }
 .articulo-principal .articulo-destacado{
-    width: 60%;
-    height: 100%;
-    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    margin: 15px auto;
 }
 
 /* Tengo que buscar las imagenes correctas*/
@@ -25,22 +49,34 @@
 }
 /* Luego, cuando entienda como hacer un carousel, voy a seguir con estos estilos. */
 
-
-@media screen and (max-width: 768px){
-    .carousel{
-        padding-top: 150px;
+@media screen and (min-width: 480px) {
+    h1{
+        font-size: 8rem;
     }
-    .articulo-principal{
-        width: 90%;
-        height: 100%;
+    h2{
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width: 770px) {
+    h1{
+        font-size: 10rem;
+    }
+    h2{
+        font-size: 4rem;
+    }
+    .tituloDeLaPagina{
+        padding-top: 110px;
     }
     .articulo-principal .articulo-destacado{
-        width: 100%;
-        height: 100%;
+        width: 80%;
+        margin: 15px auto;
     }
-    .articulo-destacado img {
-        width: 100%;
-        height: 100%;
-        box-shadow: 5px 0px 55px #000;
+}
+
+@media screen and (min-width: 1024px){
+    .articulo-principal .articulo-destacado{
+        width: 60%;
+        margin: 15px auto;
     }
 }
