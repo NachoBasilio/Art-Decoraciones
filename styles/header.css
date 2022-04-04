@@ -62,7 +62,7 @@ header {
 .contendero-elementosnav{
     width:90%;
     height: 50px;
-    background-color: #eed5b6;
+    background:linear-gradient(to right, #eed5b6, #b8a48b);
     position: absolute;
     top: 430px;
     right: -600px;
