@@ -261,7 +261,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(109, 141, 134);
+    background:linear-gradient(to bottom, #9ac8bd, rgb(109, 141, 134));
 }
 
 .contenedor-footer img{
