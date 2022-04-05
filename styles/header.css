@@ -154,7 +154,6 @@ header {
     .contendero-elementosnav{
         width:100%;
         height: auto;
-        background-color:transparent; 
         position: static;
         display: flex;
         flex-direction: row;
@@ -163,7 +162,8 @@ header {
         border: none;
         justify-content: right;
         transition: none;
-        margin-top: 50px
+        margin-top: 50px;
+        background: none;
     }
     .nav__item a{
         font-size: 1.8rem;
@@ -207,7 +207,8 @@ header {
         border: none;
         justify-content: right;
         transition: none;
-        margin-top: 50px
+        margin-top: 50px;
+        background: none;
     }
     .nav__item a{
         font-size: 2rem;
@@ -224,6 +225,9 @@ header {
 /* media query para mas de 1400px */
 
 @media screen and (min-width: 1547px){
+    .contendero-elementosnav{
+        background: none;
+    }
     header{
         width: 60%;
         left:0;
