@@ -12,6 +12,7 @@ body{
 
 header {
     position: fixed;
+    z-index: 1000;
     top: -350px; 
     padding-top: 350px;
     display: flex;
