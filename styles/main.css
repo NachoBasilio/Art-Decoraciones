@@ -1,3 +1,11 @@
+@font-face{
+    font-family: 'Playlist';
+    src: url('../Playlist\ Script.otf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+
 h1 {
     font-size: 5.2rem;
     font-family: 'Playlist', sans-serif;
