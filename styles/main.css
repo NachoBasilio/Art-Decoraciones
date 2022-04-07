@@ -17,7 +17,7 @@ h2{
     text-shadow: 2px 2px 2px white;
 }
 
-.carousel{
+.carousel-contenedor{
     padding-top: 150px;
     background-color: rgb(154, 200, 189);
     width: 100%;
@@ -29,6 +29,7 @@ h2{
     align-items: center;
     justify-items: center;
     box-shadow: 5px 0px 15px #000;
+    padding-bottom: 150px;
 }
 .articulo-principal{
     width: 90%;
