@@ -1,0 +1,20 @@
+{
+  "name": "art.decoraciones-basilio",
+  "version": "1.0.0",
+  "description": "landing page que estoy preparando para la entrega final del curso de desarrollo web de coderhouse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NachoBasilio/Art.decoraciones-Basilio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NachoBasilio/Art.decoraciones-Basilio/issues"
+  },
+  "homepage": "https://github.com/NachoBasilio/Art.decoraciones-Basilio#readme"
+}
