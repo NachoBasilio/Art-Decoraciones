@@ -201,7 +201,6 @@ header {
     .contendero-elementosnav{
         width:100%;
         height: auto;
-        background-color:transparent; 
         position: static;
         display: flex;
         flex-direction: row;
