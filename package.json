@@ -4,7 +4,8 @@
   "description": "landing page que estoy preparando para la entrega final del curso de desarrollo web de coderhouse",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-css": "node-sass --include-path sass sass/style.sass css/test.css",
+    "watch-sass": "nodemon -e sass -x \"npm run build-css\""
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/NachoBasilio/Art.decoraciones-Basilio/issues"
   },
-  "homepage": "https://github.com/NachoBasilio/Art.decoraciones-Basilio#readme"
+  "homepage": "https://github.com/NachoBasilio/Art.decoraciones-Basilio#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
 }

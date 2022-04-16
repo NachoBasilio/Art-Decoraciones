@@ -7,22 +7,24 @@
 
 body{
     background-image: url("https://i.ibb.co/3SSwhs9/brown-texture.jpg");
-    background-attachment: fixed;
+    width: 100vw;
 }
 
 header {
-    position: fixed;
-    z-index: 1000;
+    position: absolute;
+    z-index: 2;
     top: -350px; 
     padding-top: 350px;
     display: flex;
-    width: 100%;
-    margin: 0 auto;
+    width: 100vw;
+    left: 0;
+    right: 0;
     height: 600px;
     background-image: url("https://i.ibb.co/ckrVZrb/pngwing-com-1.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 
@@ -86,11 +88,11 @@ header {
 }
 
 .nav__item a{
-    font-size: 1.4rem;
+    font-size: 1rem;
     color: #000000;
     text-decoration: none;
     margin-left: 5px;
-    font-family: 'Special Elite', cursive;;
+    font-family: 'Special Elite', cursive;
 }
 .solapa{
     position: absolute;
