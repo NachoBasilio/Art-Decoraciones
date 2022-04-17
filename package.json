@@ -4,7 +4,7 @@
   "description": "landing page que estoy preparando para la entrega final del curso de desarrollo web de coderhouse",
   "main": "index.js",
   "scripts": {
-    "build-css": "node-sass --include-path sass sass/style.sass css/test.css",
+    "build-css": "node-sass --include-path sass sass/style.sass css/styles.css",
     "watch-sass": "nodemon -e sass -x \"npm run build-css\""
   },
   "repository": {
