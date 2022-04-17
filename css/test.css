@@ -98,6 +98,43 @@ header {
   height: 100%;
   background-color: red; }
 
+@font-face {
+  font-family: 'Playlist';
+  src: url("../static/fuentes/Playlist Script.otf");
+  font-style: normal;
+  font-weight: normal; }
+
+.carousel-contenedor {
+  padding-top: 150px;
+  background-color: #9ac8bd;
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 4fr;
+  grid-auto-rows: auto;
+  align-items: center;
+  justify-items: center;
+  box-shadow: 5px 0px 15px #000;
+  padding-bottom: 150px; }
+
+h1 {
+  font-size: 4rem;
+  font-family: 'Playlist', sans-serif;
+  font-weight: normal;
+  text-shadow: 2px 2px 2px white; }
+
+h2 {
+  font-family: 'Special Elite', cursive;
+  font-size: 2rem;
+  margin-bottom: -10px;
+  text-shadow: 2px 2px 2px white; }
+
+.tituloDeLaPagina {
+  width: 100%;
+  text-align: center;
+  padding-top: 50px; }
+
 footer {
   position: fixed;
   bottom: 0;
@@ -131,26 +168,34 @@ footer {
 
 @media (min-width: 480px) {
   .contendero-elementosnav {
-    width: 60%;
+    width: 70%;
     transition: all 1s; }
   .Logo {
     width: 210px;
     margin: 15px 0 0 15px;
     box-shadow: 0px 0px 10px #000000;
     border-radius: 5px; }
+  .bar-btn {
+    margin-right: 60px; }
   .contenedor-footer {
     justify-content: space-around; }
     .contenedor-footer p {
       font-size: 1.2rem; }
     .contenedor-footer img {
       width: 35px;
-      margin-left: 5px; } }
+      margin-left: 5px; }
+  h1 {
+    font-size: 5rem; }
+  h2 {
+    font-size: 3rem; } }
 
 @media (min-width: 770px) {
   .contendero-elementosnav {
     width: 50%; }
   .Logo {
     width: 300px; }
+  .bar-btn {
+    margin-right: 80px; }
   .contenedor-footer {
     justify-content: center; }
     .contenedor-footer p {
@@ -158,7 +203,11 @@ footer {
       margin-right: 15px; }
     .contenedor-footer img {
       width: 35px;
-      margin-left: 5px; } }
+      margin-left: 5px; }
+  h1 {
+    font-size: 6rem; }
+  h2 {
+    font-size: 4rem; } }
 
 @media (min-width: 1024px) {
   header {
@@ -187,7 +236,15 @@ footer {
   .solapita {
     display: none; }
   .bar-btn {
-    display: none; } }
+    display: none; }
+  h1 {
+    font-size: 7rem; }
+  h2 {
+    font-size: 5rem; }
+  .carousel-contenedor {
+    padding-top: 210px;
+    width: 80%;
+    margin: 0 auto; } }
 
 @media (min-width: 1280px) {
   header {
