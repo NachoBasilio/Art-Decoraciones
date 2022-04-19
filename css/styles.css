@@ -104,6 +104,9 @@ header {
   font-style: normal;
   font-weight: normal; }
 
+.container {
+  max-width: 827px; }
+
 .carousel-contenedor {
   padding-top: 150px;
   background-color: #9ac8bd;
