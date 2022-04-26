@@ -40,6 +40,16 @@
     .item
         width: 80%;
     
+    .polaroid
+            div
+                font-size: 1.5rem
+
+    //combo
+    .main-combos
+        width: 90%
+        padding-top: 170px 
+
+    
     //contacto
     .contenedor-formulario
         form
@@ -182,6 +192,19 @@
         width: 80%;
         margin-top: 240px;
 
+        //combo
+    .main-combos
+        width: 70%        
+        padding: 200px 0;
+        .combo-art
+            display: flex
+            flex-wrap: wrap;
+            justify-content: center;
+            .item
+                width: 32%;
+                margin: 0 5px 5px 0  
+                
+
     //contacto
     .main-contacto
         width: 100%;
@@ -192,9 +215,25 @@
         form
             width: 80%;
 
+        .polaroid
+            div
+                font-size: 2rem
+
 
 @media (min-width: map-get($breackPoints, grande-max)) 
     //Header
     .contendero-elementosnav
         margin-right: 200px;
-            
+
+    //articulo
+        .polaroid
+            div
+                font-size: 2.5rem
+
+    //combo
+    .main-combos   
+        padding: 250px 0
+
+    //main 
+    .container
+        max-width: 900px

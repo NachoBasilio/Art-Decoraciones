@@ -138,6 +138,37 @@ h2 {
   text-align: center;
   padding-top: 50px; }
 
+.main-combos {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 160px;
+  margin-bottom: 150px; }
+  .main-combos h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 10px black;
+    background-color: #eed5b6;
+    padding-top: 10px;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 10px; }
+  .main-combos .combo-art {
+    border-radius: 5px;
+    background-color: #eed5b6;
+    margin: 10px 0;
+    box-shadow: 0px 0px 10px black; }
+    .main-combos .combo-art h2 {
+      background-color: white;
+      padding-top: 15px;
+      font-size: 5rem;
+      border-radius: 0 0 0 0;
+      width: 100%;
+      box-shadow: 0 0 0; }
+    .main-combos .combo-art .item .polaroid {
+      width: 80%;
+      margin: 5px auto; }
+
 .main-art {
   width: 90%;
   padding: 0px;
@@ -155,6 +186,8 @@ h2 {
     object-fit: cover;
     object-position: center;
     height: 100%; }
+  .polaroid div {
+    font-size: 1.5rem; }
 
 .texto {
   font-size: 1.2rem;
@@ -310,6 +343,11 @@ footer {
     justify-content: center; }
   .item {
     width: 80%; }
+  .polaroid div {
+    font-size: 1.5rem; }
+  .main-combos {
+    width: 90%;
+    padding-top: 170px; }
   .contenedor-formulario form {
     width: 80%; }
   .contenedor-formulario div {
@@ -414,14 +452,30 @@ footer {
   .main-art {
     width: 80%;
     margin-top: 240px; }
+  .main-combos {
+    width: 70%;
+    padding: 200px 0; }
+    .main-combos .combo-art {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; }
+      .main-combos .combo-art .item {
+        width: 32%;
+        margin: 0 5px 5px 0; }
   .main-contacto {
     width: 100%;
     margin: 200px 0; }
   .contenedor-formulario {
     width: 60%; }
     .contenedor-formulario form {
-      width: 80%; } }
+      width: 80%; }
+    .contenedor-formulario .polaroid div {
+      font-size: 2rem; } }
 
 @media (min-width: 1547px) {
   .contendero-elementosnav {
-    margin-right: 200px; } }
+    margin-right: 200px; }
+  .main-combos {
+    padding: 250px 0; }
+  .container {
+    max-width: 900px; } }
