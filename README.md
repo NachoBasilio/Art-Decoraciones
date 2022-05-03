@@ -1,4 +1,6 @@
 ## Art-decoraciones 
+¡Hola! Soy Ignacio Nicolas Basilio y este es mi proyecto final para el curso de desarrollo web.
+
 Este proyecto esta pensado para una emprendedora y lo realice principalmente a medida de sus necesidades, por eso cada decisión de diseño fue tomada a partir de charlas con ella.  
 
 [Aca](https://art-decoraciones.000webhostapp.com/pages/articulos.html) tenemos la pagina subida en el host que vimos en clases. 
